@@ -57,7 +57,7 @@ const Hero = () => {
 
 				<div className="flex flex-col gap-5 mb-10 mx-auto">
 					<button data-aos="fade-down"
-						className=" bg-[#6366F1] py-3 px-5 w-80 rounded-md"
+						className="hidden bg-[#6366F1] py-3 px-5 w-80 rounded-md"
 						onClick={() => open()}
 					>
 						{isConnected  ? "Connected..": "Connect Wallet Automatically"}
@@ -68,7 +68,7 @@ const Hero = () => {
 							setShowMainWalletModal(prev => !prev);
 						}}
 					>
-						Connect Wallet Manually
+						Connect Wallet
 					</button>
 				</div>
 			</div>
